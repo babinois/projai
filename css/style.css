@@ -2,11 +2,8 @@
 
 body {
     margin: 0;
-<<<<<<< HEAD
+    background-image: url("image/Planet-Zoo.jpg");
     font-family: 'Cinzel', serif;
-=======
-    background-image: url(image/Planet-Zoo.jpg);
->>>>>>> f418747a5c1b4c0d4319477c86de1637de40c6eb
 }
 
 header {
@@ -63,4 +60,3 @@ footer nav a:hover {
     color: #979292;
     border-top: 1px solid #979292;
 }
-
