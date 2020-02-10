@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-image: url(image/Planet-Zoo.jpg);
 }
 
 header {
@@ -42,3 +43,4 @@ footer nav a:hover {
     color: #979292;
     border-top: 1px solid #979292;
 }
+
