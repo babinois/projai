@@ -2,17 +2,12 @@
 
 body {
     margin: 0;
-<<<<<<< HEAD
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geekgeneration.fr%2Fplanet-zoo-frontier-developments-annonce-que-la-beta-est-prete-a-rugir%2F&psig=AOvVaw3cyNf-viyBQk9KAvHlSlW7&ust=1581411531043000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiIioHTxucCFQAAAAAdAAAAABAD);
-=======
     background-image: url("image/Planet-Zoo.jpg");
     font-family: 'Cinzel', serif;
->>>>>>> 9dcebadd4a62e2148d563d5748e5635033ec06c7
 }
 
 header {
-    font-family: 'Lacquer', sans-serif;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -22,6 +17,11 @@ header {
 
 header img {
     width: 100px;
+}
+
+.img {
+    width: 100%;
+
 }
 
 .container {
