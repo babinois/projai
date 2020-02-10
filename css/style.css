@@ -15,3 +15,25 @@ header {
     flex-wrap: wrap;
 
 }
+
+footer {
+    padding: 50px;
+    width: 40%;
+    margin: auto;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid;
+}
+
+footer nav a:hover {
+    color: #979292;
+    border-top: 1px solid #979292;
+}
