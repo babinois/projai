@@ -7,40 +7,43 @@ body {
 }
 
 header {
-    padding: 10px;
     text-align: center;
     display: flex;
     justify-content: space-around;
     color: black;
+    padding: 5px;
 }
 
 header img {
     width: 100px;
 }
 
-.img {
+main .img {
     width: 100%;
-
 }
 
-.container {
+main h2 {
+    text-align: center;
+}
+
+main .container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.container div {
+main .container div {
     width: 30%;
     margin: 30px;
     margin-top: 90px;
     text-align: center;
 }
 
-.container div p {
+main .container div p {
     text-align: justify;
 }
 
-.container div img {
+main .container div img {
     box-shadow: 10px 5px 5px grey;
     width: 300px;
     height: 200px;
