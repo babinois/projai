@@ -11,8 +11,7 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    background-color: black;
-    color: white;
+    color: black;
 }
 
 header img {
@@ -48,7 +47,8 @@ header img {
 }
 
 footer {
-    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     width: 40%;
     margin: auto;
 }
