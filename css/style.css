@@ -1,43 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Lacquer&display=swap');
+
 body {
     margin: 0;
-    background-image: url(image/Planet-Zoo.jpg);
+    background-image: url("image/Planet-Zoo.jpg");
+    font-family: 'Cinzel', serif;
 }
 
 header {
-    padding: 30px;
-    background-color: black;
-    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 5px;
+}
+
+header img {
+    width: 100px;
+}
+
+main .img {
+    width: 100%;
+}
+
+main h2 {
     text-align: center;
 }
 
-img {
-    width: 300px;
-    height: 200px;
-}
-
-.container {
+main .container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.container div {
+main .container div {
     width: 30%;
     margin: 30px;
     margin-top: 90px;
     text-align: center;
 }
 
-.container div p {
+main .container div p {
     text-align: justify;
 }
 
-.container div img {
-    border-radius: 45%;
+main .container div img {
+    box-shadow: 10px 5px 5px grey;
+    width: 300px;
+    height: 200px;
 }
 
 footer {
-    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     width: 40%;
     margin: auto;
 }
@@ -57,4 +71,3 @@ footer nav a:hover {
     color: #979292;
     border-top: 1px solid #979292;
 }
-
