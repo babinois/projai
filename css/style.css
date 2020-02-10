@@ -19,7 +19,21 @@ img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
 
+.container div {
+    width: 30%;
+    margin: 30px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.container div p {
+    text-align: justify;
+}
+
+.container div img {
+    border-radius: 45%;
 }
 
 footer {
